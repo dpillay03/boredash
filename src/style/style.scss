@@ -10,3 +10,37 @@
     height: 6px;
     background: -webkit-linear-gradient(left, #000000 10%, #001eff 25%, #00ff15 65%,#FF4500	 85%);
 }
+.product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.product-container {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 4em;
+}
+.product-title{
+    text-align: center;
+    font-size: 20px;
+}
+.product-image {
+    width: 300px;
+    height: 275px;
+    margin: 0 auto;
+}
+.product-favorite {
+    width: 25px;
+    height: 25px;
+}
+.product-favorite:hover {
+    transition: .4s;
+    background-color: rgb(220, 82, 105);
+    border-radius: 100px;
+    cursor: pointer;
+}
+.sub-cat-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
