@@ -11,14 +11,16 @@
     background: -webkit-linear-gradient(left, #000000 10%, #001eff 25%, #00ff15 65%,#FF4500	 85%);
 }
 .product {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-}
-.product-container {
     width: 300px;
-    margin: 0 auto;
+    border-radius: 2px;
+    margin: 40px;
+    display: inline-block;
+  }
+
+.product-container {
     padding-top: 4em;
+    width: 100%;
+    text-align: center;
 }
 .product-title{
     text-align: center;
@@ -28,6 +30,9 @@
     width: 300px;
     height: 275px;
     margin: 0 auto;
+}
+.product-description {
+    text-align: left;
 }
 .product-favorite {
     width: 25px;
