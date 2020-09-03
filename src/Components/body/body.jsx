@@ -3,9 +3,15 @@ import Favorites from '../../assets/favorite.png';
 import Products from '../../data/items.js'
 
 export default class Body extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+          }
+        }
+
     render() {
         return <React.Fragment>
-                        <div className="product-container">
+                        <div className="project-container">
                             {Products.map((data, key) => {
                                 return (
                                     <div className="product" key={key}>
