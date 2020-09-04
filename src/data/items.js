@@ -11,7 +11,7 @@ const Products = [
     {
         title: "LumiLux Toilet Light",
         image: "https://live.staticflickr.com/65535/50300074396_75f49181bd_z.jpg",
-        description: "What's cooler than a regular toilet? I toilet with lights! Okay, maybe not... but it's still unique! THe LumiLux Toilet Light gives you the option of 16 LED colors to choose from so you can wow your friends! Get yours today.",
+        description: "What's cooler than a regular toilet? A toilet with lights! Okay, maybe not... but it's still unique! The LumiLux Toilet Light gives you the option of 16 LED colors to choose from so you can wow your friends! Get yours today.",
         price: "$14.95",
         link: "https://amzn.to/3lEwY8h",
         tag: "Lifestyle",
